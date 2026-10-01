@@ -1,8 +1,11 @@
+-- SPDX-License-Identifier: MIT
+-- SPDX-FileCopyrightText: 2023 Birch Point SWE
 local env = {
   name = "santoku-sqlite-migrate",
-  version = "2.0.2-1",
+  version = "2.0.3-1",
   variable_prefix = "TK_SQLITE_MIGRATE",
   license = "MIT",
+  copyright = "Birch Point SWE",
   public = true,
   dependencies = {
     "lua == 5.1",
